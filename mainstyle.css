@@ -1,0 +1,83 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #722f37;
+color: #EFDFBB;
+}
+
+
+.top-nav {
+background: #EFDFBB;
+padding: 10px 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: sticky;
+top: 0;
+z-index: 1000;
+box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+.site-title {
+font-size: 28px;
+font-weight: bold;
+color: #722f37;
+}
+
+
+.return-btn {
+text-decoration: none;
+color: #EFDFBB;
+font-weight: bold;
+padding: 8px 15px;
+border-radius: 8px;
+background: #722f37;
+transition: 0.3s;
+}
+
+
+.return-btn:hover {
+background: #642930;
+}
+
+
+main {
+max-width: 800px;
+margin: 40px auto;
+padding: 20px;
+}
+
+
+.about-section {
+text-align: center;
+}
+
+
+.about-section h1 {
+font-size: 32px;
+margin-bottom: 20px;
+}
+
+
+.about-section p {
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 15px;
+}
+
+
+.profile-image {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+border: 4px solid #EFDFBB;
+margin: 20px auto;
+display: block;
+}
+
+p{
+    font-style: italic;
+}
